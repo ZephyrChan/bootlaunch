@@ -4,8 +4,7 @@ package com.zephyrchan.bootlaunch.model;
 import lombok.Data;
 
 @Data
-public class Account {
-    private Long id;
+public class Reader {
     private String name;
-
+    private int age;
 }
